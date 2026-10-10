@@ -9,7 +9,6 @@ import java.time.Instant;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "nr_dhvt_sieu_hang_reward")
 public class DhvtSieuHangReward {

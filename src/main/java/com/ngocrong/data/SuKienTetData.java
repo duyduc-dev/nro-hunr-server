@@ -21,7 +21,6 @@ import lombok.NoArgsConstructor;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "nr_event_tet")
 public class SuKienTetData {

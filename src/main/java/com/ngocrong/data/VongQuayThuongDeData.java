@@ -9,7 +9,6 @@ import java.time.Instant;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "nr_event_vqtd")
 public class VongQuayThuongDeData {

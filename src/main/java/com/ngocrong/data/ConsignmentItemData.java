@@ -17,7 +17,6 @@ import java.sql.Timestamp;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class ConsignmentItemData {
 
     @Id

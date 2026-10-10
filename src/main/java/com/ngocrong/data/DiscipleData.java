@@ -15,7 +15,6 @@ import javax.persistence.Table;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class DiscipleData {
 
     @Id

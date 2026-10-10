@@ -377,8 +377,8 @@ public class TMap {
             this.blocks = new boolean[this.maps.length];
             loadBlock();
         } catch (Exception ex) {
-            
-            logger.error("failed!", ex);
+
+            logger.error("failed! map " + this.mapID + " (resources/map/" + this.mapID + ")", ex);
         }
     }
 

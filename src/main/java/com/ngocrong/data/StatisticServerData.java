@@ -11,7 +11,6 @@ import java.time.Instant;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "nr_statistic_server")
 public class StatisticServerData {

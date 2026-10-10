@@ -9,7 +9,6 @@ import java.time.Instant;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "history_receive_goldbar")
 public class HistoryGoldBar {

@@ -8,7 +8,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -18,7 +17,6 @@ import lombok.NoArgsConstructor;
  */
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Entity
 @Table(name = "nr_security")
 public class SecurityData {
@@ -32,4 +30,10 @@ public class SecurityData {
 
     @Column(name = "modPC")
     private Long modPC;
+
+    public SecurityData(Integer id, String versionPC, Long modPC) {
+        this.id = id;
+        this.versionPC = versionPC;
+        this.modPC = modPC;
+    }
 }

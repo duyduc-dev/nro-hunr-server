@@ -12,7 +12,6 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class MabuEggData {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

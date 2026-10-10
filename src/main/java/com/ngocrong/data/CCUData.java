@@ -13,7 +13,6 @@ import java.time.Instant;
 @Setter
 @Entity
 @NoArgsConstructor
-@AllArgsConstructor
 @Table(name = "nr_statistic")
 public class CCUData {
 

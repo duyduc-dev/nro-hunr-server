@@ -456,7 +456,7 @@ public abstract class Boss extends Player implements Bot {
 
     // @Override
     public void sendNotificationWhenAppear(String map) {
-        SessionManager.chatVip(String.format("BOSS %s vừa xuất hiện tại %s", this.name, map));
+        SessionManager.chatVip(String.format("BOSS %s vừa xuất hiện tại %s khu vực %d", this.name, map, zone != null ? zone.zoneID : 0));
         logger.debug(String.format("BOSS %s vừa xuất hiện tại %s khu vực %d", this.name, map, zone.zoneID));
     }
 

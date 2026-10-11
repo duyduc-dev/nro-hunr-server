@@ -50,7 +50,7 @@
 //
 //    @Override
 //    public void sendNotificationWhenAppear(String map) {
-//        PlayerManager.chatVip(String.format("BOSS %s vừa xuất hiện tại %s", this.name, map));
+//        PlayerManager.chatVip(String.format("BOSS %s vừa xuất hiện tại %s khu vực %d", this.name, map, zone != null ? zone.zoneID : 0));
 //    }
 //
 //    public void sendNotificationWhenDead(String name) {

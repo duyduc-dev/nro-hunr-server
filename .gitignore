@@ -34,3 +34,11 @@ hs_err_pid*.log
 replay_pid*.log
 MultiLayerLog.txt
 .DS_Store
+
+### runtime logs ###
+/AddItem/
+/BuyItem/
+/DropItem/
+/LogThoiVang/
+/hs_err_pid*.log
+/replay_pid*.log

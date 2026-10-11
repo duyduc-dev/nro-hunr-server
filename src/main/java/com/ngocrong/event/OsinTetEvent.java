@@ -214,7 +214,12 @@ public class OsinTetEvent {
             return;
         }
 
-        int dropRate = player.getSession().user.getActivated() == 1 ? 15 : 10;
+        Player owner = player.isDisciple() ? ((com.ngocrong.bot.Disciple) player).master : player;
+        if (owner == null || owner.getSession() == null) {
+            return;
+        }
+
+        int dropRate = owner.getSession().user.getActivated() == 1 ? 15 : 10;
         if (!Utils.isTrue(dropRate, 100)) {
             return;
         }

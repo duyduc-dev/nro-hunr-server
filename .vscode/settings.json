@@ -1,5 +1,6 @@
 {
     "java.compile.nullAnalysis.mode": "disabled",
+    "java.autobuild.enabled": false,
     "java.jdt.ls.java.home": "/Users/ducdang/.sdkman/candidates/java/21.0.10-oracle",
     "java.configuration.runtimes": [
         {

@@ -531,6 +531,16 @@ public class Disciple extends Player {
     }
 
     public void attack(Object obj) {
+        try {
+            attackImpl(obj);
+        } catch (Throwable ex) {
+            logger.error("disciple attack failed!", ex);
+        } finally {
+            isAttacking = false;
+        }
+    }
+
+    private void attackImpl(Object obj) {
         if (isDead()) {
             return;
         }
